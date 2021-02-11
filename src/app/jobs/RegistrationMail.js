@@ -7,7 +7,7 @@ export default {
     priority: 3,
     repeat: {
       every: 1,
-      limit: 100
+      limit: 2
     },
     lifo: true
   },
