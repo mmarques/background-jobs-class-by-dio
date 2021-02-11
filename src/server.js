@@ -13,6 +13,7 @@ app.post('/users', UserController.store);
 
 app.use('/admin/queues', BullBoard.UI);
 
-app.listen(8080, () => {
-  console.log('Server running on the port 8080');
+const port = 8080
+app.listen(port, () => {
+  console.log('Server running on the port', port);
 });
